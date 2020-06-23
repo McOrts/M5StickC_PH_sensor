@@ -13,10 +13,10 @@ The approach is easy. We have a sensor that send an analog signal that we have t
 **Hardware components**
 
 - [M5StickC ESP32 PICO Mini IoT Development Board Finger Computer with Color LCD Built in Battery MPU...](https://www.aliexpress.com/item/32985247364.html) ×	1	 
-<img src="images/M5StickC.pngp" width="250" align="right" />
+<img src="images/M5StickC.png" width="250" align="right" />
 
 - [PH-4502C Liquid PH Value Detection detect Sensor Module Monitoring Control Board For Arduino BNC Electrode Probe](https://www.aliexpress.com/item/32957428276.html) ×	1	
-<img src="images/h-4502_pinout.png" width="250" align="right" />
+<img src="images/ph-4502_pinout.png" width="250" align="right" />
 
 - Jumper Wires / DuPont Wires
 - Voltage Tester
