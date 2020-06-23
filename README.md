@@ -28,7 +28,7 @@ The approach is easy. We have a sensor that send an analog signal that we have t
 
 ## How does it Work?
 The device is intended to be used as a portable tool. When the M5StickC is turned on, its display shows a continuous reading. If we press the M5 button, the last measurement will be sent in an MQTT package to the server that we have configured in the config.h file.
-<img src="images/M5StickC_PH_sensor_test.png" width="300" align="left" />
+<img src="images/M5StickC_PH_sensor_test.png" width="300" left="left" />
 A Node-red application collects the package and displays the graph in an component of the dashboard that I have developed for the control of the smart aquarium filter.
 
 ## Development
