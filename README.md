@@ -4,7 +4,7 @@
 My aquarium always has water turbidity problems.
 
 ## Deployed idea
-<img src="img/pH-Sensor-Board-Arduino-Microcontroller-Electrode-Probe-Sensor-14core" width="400" align="left" />
+<img src="images/pH-Sensor-Board-Arduino-Microcontroller-Electrode-Probe-Sensor-14core" width="400" align="left" />
 
 The approach is easy. We have a sensor that send an analog signal that we have to read. Most of the microcontrollers that exist have at least, one analog digital conversion input AD. I have chosen the compact M5StickC model based on ESP32 that incorporates a perfect LCD screen for this use case.
 
@@ -12,7 +12,7 @@ The approach is easy. We have a sensor that send an analog signal that we have t
 **Hardware components**
 
 - [M5StickC ESP32 PICO Mini IoT Development Board Finger Computer with Color LCD Built in Battery MPU...](https://www.aliexpress.com/item/32985247364.html) ×	1	 
-<img src="images/ph-4502_pinout" width="250" align="right" />
+<img src="images/ph-4502_pinout.png" width="250" align="right" />
 
 - [PH-4502C Liquid PH Value Detection detect Sensor Module Monitoring Control Board For Arduino BNC Electrode Probe](https://www.aliexpress.com/item/32957428276.html) ×	1	
 <img src="images/M5StickC.png" width="250" align="right" />
@@ -27,7 +27,7 @@ The approach is easy. We have a sensor that send an analog signal that we have t
 
 ## How does it Work?
 The device is intended to be used as a portable tool. When the M5StickC is turned on, its display shows a continuous reading. If we press the M5 button, the last measurement will be sent in an MQTT package to the server that we have configured in the config.h file.
-<img src="images/HM5StickC_PH_sensor_test.jpg" width="300" align="left" />
+<img src="images/HM5StickC_PH_sensor_test.png" width="300" align="left" />
 A Node-red application collects the package and displays the graph in an component of the dashboard that I have developed for the control of the smart aquarium filter.
 
 ## Development
