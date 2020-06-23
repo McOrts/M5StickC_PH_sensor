@@ -4,7 +4,8 @@
 My aquarium always has water turbidity problems.
 
 ## Deployed idea
-<img src="images/pH-Sensor-Board-Arduino-Microcontroller-Electrode-Probe-Sensor-14core" width="400" align="left" />
+
+<img src="images/pH-Sensor-Board-Arduino-Microcontroller-Electrode-Probe-Sensor-14core.png" width="400" align="left" />
 
 The approach is easy. We have a sensor that send an analog signal that we have to read. Most of the microcontrollers that exist have at least, one analog digital conversion input AD. I have chosen the compact M5StickC model based on ESP32 that incorporates a perfect LCD screen for this use case.
 
@@ -12,10 +13,10 @@ The approach is easy. We have a sensor that send an analog signal that we have t
 **Hardware components**
 
 - [M5StickC ESP32 PICO Mini IoT Development Board Finger Computer with Color LCD Built in Battery MPU...](https://www.aliexpress.com/item/32985247364.html) ×	1	 
-<img src="images/ph-4502_pinout.png" width="250" align="right" />
+<img src="images/M5StickC.pngp" width="250" align="right" />
 
 - [PH-4502C Liquid PH Value Detection detect Sensor Module Monitoring Control Board For Arduino BNC Electrode Probe](https://www.aliexpress.com/item/32957428276.html) ×	1	
-<img src="images/M5StickC.png" width="250" align="right" />
+<img src="images/h-4502_pinout.png" width="250" align="right" />
 
 - Jumper Wires / DuPont Wires
 - Voltage Tester
@@ -34,6 +35,7 @@ A Node-red application collects the package and displays the graph in an compone
 I have used prototyping material. What is working is proof of concept for the use case of the system control of my aquarium of turtles.
 
 **Schematics**
+
 <img src="images/M5StickC_PH_sensor_bb.png" width="300"  align="center" /> 
 
 ## References
