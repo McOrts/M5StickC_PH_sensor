@@ -36,3 +36,7 @@ I have used prototyping material. What is working is proof of concept for the us
 
 **Schematics**
 <img src="https://github.com/McOrts/Water_flow_sensor_MQTT/blob/master/Pictures/Water_flow_sensor_MQTT_bb.png" width="300"  align="center" /> 
+
+## References
+* Based on [Wiring The pH (Power of Hydrogen) Ion Concentration Sensor with BNC Electrode Probe](https://www.14core.com/wiring-the-ph-power-hydrogen-sensor-bnc-electrode-probe-with-microcontroller/)
+* [ph-4502c ph meter calibration notes](https://tlfong01.blog/2019/04/26/ph-4502c-ph-meter-calibration-notes/)
