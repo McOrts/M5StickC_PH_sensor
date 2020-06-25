@@ -7,7 +7,7 @@ My aquarium always has water turbidity problems.
 
 <img src="images/pH-Sensor-Board-Arduino-Microcontroller-Electrode-Probe-Sensor-14core.png" width="400" align="left" />
 
-The approach is easy. We have a sensor that send an analog signal that we have to read. Most of the microcontrollers that exist have at least, one analog digital conversion input AD. I have chosen the compact M5StickC model based on ESP32 that incorporates a perfect LCD screen for this use case.
+The approach is easy. We have a sensor that send an analogical  signal that we have to read. Most of the microcontrollers that exist have at least, one analogical  digital conversion input AD. I have chosen the compact M5StickC model based on ESP32 that incorporates a perfect LCD screen for this use case.
 
 ## Things used in this project
 **Hardware components**
