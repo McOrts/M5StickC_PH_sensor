@@ -1,4 +1,4 @@
-# pH sensor for water based solution based on ph-4502c and ESP32 microprocessor 
+# pH sensor for water based solution with ph-4502c and ESP32 microprocessor 
 
 ## The problem
 My aquarium always has water turbidity problems.
